@@ -1,0 +1,137 @@
+.music-maker__img{
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  }
+  .music-maker__content{
+      position: absolute;
+      top: 20vh;
+      left: 10vw;
+      margin-top: 20vh;
+      margin-left: 10vw;
+      max-width: 40vw;
+      padding: 0px 0px 0px 3rem;
+      text-align: left;
+      color: white;
+  }
+   h1 {
+      font-size: 48px;
+      line-height: 54px;
+  }
+  h2 {
+      font-size: 38px;
+      line-height: 42px;
+  }
+  h1, h2, h3 {
+      font-weight: 700;
+  }
+  h1, h2, h3, h4, h5, h6, button {
+      margin: 20px 0;
+  }
+  .music-maker--button{
+      margin: 20px 0px;
+      padding:0px 16px;
+      background-color: #9cf0e1;
+      color: #000;
+      height: 52px;
+      min-width: 120px;
+      line-height: 52px;
+      padding: 0 16px;
+      font-size: 19px;
+      border: 0;
+      border-radius: 100px;
+      box-shadow: 0 1px 12px #0000001a;
+      font-weight: 600;
+  }
+
+  .music-maker__desc{
+      margin: 20px 0px;
+      color: #8ff3c1;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 26px;
+  }
+    .music-maker__content{
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+    }
+  .music-maker{
+      height: 100vh;
+      width: 100%;
+  }
+@media only screen and (max-width: 600px) {
+    /* .music-maker{
+        height:auto;
+        width: 100%;
+    }
+    .music-maker__img{
+        width: 100%;
+        height: auto;
+    }
+    .music-maker__content{
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top: 10vh;
+        margin-left: 5vw;
+        max-width: 40vw;
+        padding: 0px 0px 0px 3rem;
+        text-align: left;
+        color: white;
+
+    }
+    .music-maker__title{
+        font-size: 16px;
+        margin:0;
+        padding:0;
+        line-height: 20px;
+    }
+    .music-maker__desc{
+        margin:0;
+        color: #8ff3c1;
+        font-weight: 700;
+        font-size: 14px;
+    }
+    .music-maker--button{
+        margin-top: 4px;
+        min-width: 15px;
+        font-size: 12px;
+        height:45px;
+
+
+    } */
+  }
+  @media only screen and (min-width:375px )and (max-width:667px) {
+    .music-maker{
+        height:auto;
+        width: 100%;
+    }
+    .music-maker__content{
+        position: absolute;
+        top: 0;
+        left:0;
+        margin-top:27%;
+        margin-left: unset;
+        width: 100%;
+        text-align: left;
+        color: white;
+        padding: 0px 0px 0px 2rem;
+    }
+    .music-maker__title{
+        font-size: 34px;
+        font-weight: 600;
+        margin: unset;
+        width: fit-content;
+    }
+    .music-maker__desc{
+        font-size: 18px;
+        margin: unset;
+        width: 100%;
+        line-height:unset;
+    }
+}

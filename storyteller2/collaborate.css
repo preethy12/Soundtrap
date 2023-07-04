@@ -1,0 +1,14 @@
+.collaborate{
+    width:100%
+}
+.collaborate-wrapper{
+    display: flex;
+    padding: 24px 110px;
+}
+.collaborate-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2d2d2d;
+    margin-left: 50px;
+}

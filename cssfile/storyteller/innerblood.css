@@ -1,0 +1,14 @@
+.storyteller-inourblood{
+    background-color: white;
+    color: #4f0590;
+  }
+  .storyteller-inourblood-content{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 70%;
+    margin-left: 3vw;
+  }
+  .storyteller-inourblood__desc{
+    padding-right:140px;
+  }

@@ -1,0 +1,23 @@
+.storyteller-video{
+    position: relative;
+    width:100%;
+
+  }
+
+  .storyteller-video img,
+  .storyteller-video video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .storyteller-video video {
+    opacity: 0.7; /* Adjust the opacity as desired */
+  }
+  .video{
+width: 100%;
+  }
+  .video-container{
+    padding: 24px 110px;
+  }

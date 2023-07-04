@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+body {
+    font-size: 16px;
+    line-height: 24px;
+
+}
+*{
+    margin: 0;
+    padding:0;
+    font-family: poppins;
+
+}
+.header{
+    top: 0;
+    left: 0;
+    background-color: #3e1165;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    z-index: 1;
+    &__logo{
+        margin-left: 20px;
+    }
+}
+.navigation{
+    display: flex;
+    width: 100%;
+    ul{
+        display: flex;
+        list-style:none;
+        justify-content: flex-end;
+        flex-direction: row;
+        padding: 0;
+        width: 100%;
+        margin-right: 40px;
+        flex-grow: 1;
+    }
+    &__divider {
+        width: 1px;
+        margin: 0 20px;
+        height: 20px;
+        background: #fff;
+    }
+    &__list li a{
+        color: #fff;
+        background: transparent;
+        text-decoration: none;
+        margin: 0 20px;
+        padding: 0;
+        font-weight: 600;
+        font-size: 18px;
+        &:hover{
+            color: #fff;
+            text-decoration:underline;
+          }
+    }
+
+
+}
+.menu-icon{
+    display: none;
+}
+
+@media only screen and (min-width:375px )and (max-width:667px) {
+    .header{
+        height: auto;
+        width: 100%;
+        padding:5px;
+        &__logo{
+            margin-left: 0;
+            width: 15px;
+        }
+
+    }
+    .navigation{
+        display: none;
+    }
+    .menu-icon{
+        display: flex;
+        border-color: rgb(214, 205, 205);
+        border-style: solid;
+        margin-left: 10px;
+        padding: 10px;
+        padding-left: 15px;
+        width: 22px;
+        border-radius: 5px;
+        margin-right: 10px;
+
+    }
+}
+@media only screen and (min-width:668px )and (max-width:1024px){
+    .header{
+        height: 25px;
+        width: 100%;
+        &__logo{
+            margin-left: 0;
+        }
+
+    }
+    .navigation{
+        display: none;
+    }
+    .menu-icon{
+        display: flex;
+        border-color: rgb(214, 205, 205);
+        border-style: solid;
+        margin-left: 10px;
+        padding: 10px;
+        padding-left: 15px;
+        width: 22px;
+        border-radius: 5px;
+        margin-right: px;
+
+    }
+}

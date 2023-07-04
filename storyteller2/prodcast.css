@@ -1,0 +1,22 @@
+.Podcast-main{
+    width: 100%;
+}
+.prodcast-container{
+    display:flex;
+    padding: 24px 110px;
+
+}
+.prodcast-container__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2d2d2d;
+    margin-right: 50px;
+}
+.prodcast__content-sub{
+    margin: -32px  0 -20px;
+}
+.prodcast-container__desc{
+    font-weight: 520;
+    font-size: 14px;
+}

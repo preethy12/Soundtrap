@@ -1,0 +1,107 @@
+.capture-app{
+    height: 100vh;
+    width: 100%;
+    background-color: #efefef;
+    position: relative;
+}
+.capture-app__container-main{
+    position:absolute;
+    /* left:50px; */
+    width: 100%;
+}
+.capture-app__img img{
+    position: absolute;
+    width: fit-content;
+    left: 150px;
+    height: 100vh;
+    top: -190px;
+}
+
+.capture-app__container{
+    position: absolute;
+    left:25%;
+    margin-top:80px;
+    margin-bottom: 120px;
+    color: #4f0590;
+    margin-left: 160px;
+}
+.capture-app__heading{
+    font-size: 38px;
+    font-weight: 700;
+}
+.capture-app__desc{
+    font-size: 16px;
+}
+.capture-app__img a{
+    width: 17.1rem;
+}
+.capture-app__store img{
+    width:35%;
+    padding: 15px;
+}
+.material-symbols__desc{
+    display: inline;
+    font-size: 16px;
+
+}
+.material-symbols-outlined img{
+    width:7%;
+}
+
+@media only screen and (min-width:375px )and (max-width:667px) {
+    .capture-app{
+        height:145vh;
+        width: 100%;
+        background-color: #efefef;
+
+    }
+    .capture-app__container-main{
+        position:absolute;
+        /* left:50px; */
+        width: 100%;
+        height: auto;
+    }
+    .capture-app__img img{
+        position: absolute;
+        width: fit-content;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        top: -250px;
+        left: 27px;
+
+    }
+    .capture-app__container{
+        position: absolute;
+        left:0;
+        margin-top:60vh;
+        margin-bottom: 0;
+        color: #4f0590;
+        margin-left:0;
+        height: auto;
+        padding: 15px;
+    }
+    .capture-app__heading{
+        font-size: 28px;
+        font-weight: 900;
+    }
+    .material-symbols__desc{
+        display: inline;
+        font-size: 15px;
+    }
+
+  }
+
+  @media only screen and (min-width:667px )and (max-width:1024px){
+    .capture-app__container{
+        position: absolute;
+        left:30%;
+        margin-top:80px;
+        margin-bottom: 120px;
+        color: #4f0590;
+        margin-left: 160px;
+    }
+  }
+  @media only screen and (min-width:1025px )and (max-width:1200px){
+
+  }
